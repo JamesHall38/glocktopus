@@ -1,0 +1,26 @@
+html,
+body,
+#root,
+.app {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: #181a1b;
+	overflow: hidden;
+	touch-action: none;
+}
+
+.app-background {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	/* background: #b28a0f; */
+}
+
+.app-background img {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	/* filter: brightness(60%); */
+}
